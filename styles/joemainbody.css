@@ -1,0 +1,101 @@
+.page-main-body {
+    position:relative;
+    height: 570px;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    background-color: rgb(57, 61, 66);
+    outline: none;
+    box-shadow:-600px -100px 80px 50px rgba(0,0,0,0.4) inset;
+    font-family: "Lato" , sans serif;
+}
+    
+.left-column-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 20px 0px;
+    margin-left: -100px;
+    
+}
+.first-paragraph {
+    width: 510px;
+}
+.first-paragraph p {
+    font-size: 2em;
+    display: block;
+    color: rgb(214, 214, 214);
+}
+
+
+.first-paragraph span {
+    font-weight: bold;
+    color: white;
+}
+    
+.second-paragraph {
+    font-size: 1.5em;
+    margin-top: -20px;
+    width: 510px;
+    line-height: 200%;
+    
+}
+.second-paragraph p {
+    color: rgb(214, 214, 214);
+}
+.join-in-wrapper {
+display :grid;
+grid-template-columns:1fr 1.1fr;
+align-items: center;
+width: 510px;
+margin-top: -40px;
+}
+.left-column-wrapper > .join-in-wrapper h5 {
+    width: 220px;
+    height: 60px;
+    font-size: 1.5em;
+    background-color: #33d790;  
+    text-align: center;
+    border-radius: 3px;
+}
+.left-column-wrapper > .join-in-wrapper h5 p {
+    margin-top: 15px;
+    color: black;
+}
+.left-column-wrapper > .join-in-wrapper h6 {
+    background-color: #000000;   
+    font-size: 1.5em;
+    text-align: center;
+    width: 150px;
+    height: 60px; 
+    border-radius: 3px; 
+    
+}
+.left-column-wrapper > .join-in-wrapper h6 p {
+    margin-top: 15px;
+}    
+.right-column {
+    position: absolute; 
+    height: 550px; 
+    bottom: 4px;
+    right: 0px;
+    font-weight: bold;
+}
+.right-column > .announcement {
+    display: flex;
+    font-size: 1.2em;
+    padding-left: 10px;
+    margin-bottom: -15px;
+}
+.this-is , p {
+    color: white;
+}
+.codepen {
+    color: aqua;
+    padding-left: 2px;
+}
+.right-column img {
+    width: 600px;
+    height: 508px;
+
+}
