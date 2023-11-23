@@ -40,30 +40,11 @@ text-align: center;
 .third-item > .privacy {
     font-weight: bold;
 }
-/*.base-wrapper > .fourth-item {
-    text-align: center;
-}*/
+
 .fourth-item > .writing {
     font-weight: bold;
 }
-/*
-.base-wrapper :nth-child(6) {
-    font-weight: bold;
-    font-size: 1em;
-    margin-left: -95px;
-}
-/*
-.base-wrapper :nth-child(8) {
-    font-weight: bold;
-    font-size: 1em;
-    font-size: 1em;
-    margin-left: -95px;
-}
 
-/*.base-wrapper > .for {
-
-
-}*/
 .festoon {
     height: 70px;
     background-color: rgb(29, 34, 34); 
